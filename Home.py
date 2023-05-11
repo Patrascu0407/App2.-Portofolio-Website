@@ -1,5 +1,6 @@
-import streamlit as st
 import pandas
+import streamlit as st
+import os
 
 # Set webpage layout to wide
 st.set_page_config(layout="wide")
@@ -54,7 +55,3 @@ with col3:
         st.write(row["role"])
         # Add member's photo
         st.image("images/" + row["image"])
-
-
-
-
